@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraper Homework</title>
+    <style>
+      body { 
+      background-image: url(images/arcade.jpg); 
+      color: white; 
+      background-size: cover 
+      }
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+        background-color: black;
+        opacity: .8;
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+        border: 10px;
+        background: black;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+        color: white;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: rgb(78, 69, 9);
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1><strong>Note Scraper</strong></h1>
+      <h2><i>Eagerly Awaiting for the GameInformer Scraping...</i></h2>
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
