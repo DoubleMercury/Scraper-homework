@@ -7,7 +7,7 @@ var cheerio = require("cheerio");
 
 var db = require("./models");
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/gameinformer";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/gameinformerScraper";
 
 mongoose.connect(MONGODB_URI);
 
